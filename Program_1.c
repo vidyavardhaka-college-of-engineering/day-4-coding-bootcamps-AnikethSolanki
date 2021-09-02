@@ -11,8 +11,15 @@
 
 int main()
 {
-   //Declare all the variables[N, array a, i] used in the code
-   //Read the Value of N using scanf statement
+   int n,a[100],i;//Declare all the variables[N, array a, i] used in the code
+  printf("enter the number of elements"); 
+  scanf("%d",&n);//Read the Value of N using scanf statement
+  printf ("enter the array elements");
+  for(i=0;i<n;i++)
+  scanf("%d",&a[i]);
+  printf("the elementsentered are:");
+  for (i=0;i<n;i++)
+  printf ("%d\n",a[i]);
    //Read the array elements using for loop and scanf statment
    //Print the array elements in using printf statement
    
