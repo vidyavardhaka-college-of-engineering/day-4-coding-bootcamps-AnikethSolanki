@@ -17,7 +17,7 @@ int main()
   printf ("enter the array elements");
   for(i=0;i<n;i++)
   scanf("%d",&a[i]);
-  printf("the elementsentered are:");
+  printf("the elements entered are:");
   for (i=0;i<n;i++)
   printf ("%d\n",a[i]);
    //Read the array elements using for loop and scanf statment

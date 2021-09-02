@@ -14,6 +14,18 @@
 
 int main()
 {
+   int a1[100],a2[100],i,n;
+   printf("enter the number of elements");
+   scanf("%d\n",&n);
+   printf("enter the array elements");
+   for (i=0;i<n;i++)
+   scanf("%d",&a1[i]);
+   for (i=0;i<n;i++)
+   {a2[i]=a1[i];}
+   printf("the elements in second array are");
+   for(i=0;i<n;i++)
+   printf("%d\n",a2[i]);
+
    //Declare all the variables[N, array a & array b, i] used in the code
    //Read the Value of N using scanf statement
    //Read the array elements using for loop and scanf statment
